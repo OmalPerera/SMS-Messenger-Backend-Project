@@ -1,0 +1,96 @@
+2016-04-19 08:01:35 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migtatre".' in /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/console/Application.php(167): yii\base\Module->runAction('migtatre', Array)
+#1 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migtatre', Array)
+#2 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "migtatre".' in /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/console/Application.php:169
+Stack trace:
+#0 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migtatre', Array)
+#1 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-19 08:01:35 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/1x/nc6lqp3s71594gqtgzzr8glc0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.6JxnxCTeT3/Render'
+    'TERM_PROGRAM_VERSION' => '361'
+    'OLDPWD' => '/Users/Omal'
+    'TERM_SESSION_ID' => '9A902DA5-2309-4217-9FFA-BA6987BBD158'
+    'USER' => 'Omal'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.d0R5ghHkPS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin'
+    'PWD' => '/Applications/MAMP/htdocs/SMS-Messenger-Backend-Project'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Omal'
+    'LOGNAME' => 'Omal'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1461052895.4686
+    'REQUEST_TIME' => 1461052895
+    'argv' => [
+        0 => 'yii'
+        1 => 'migtatre'
+    ]
+    'argc' => 2
+]
+2016-04-19 08:01:45 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migratre".' in /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/console/Application.php(167): yii\base\Module->runAction('migratre', Array)
+#1 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migratre', Array)
+#2 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "migratre".' in /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/console/Application.php:169
+Stack trace:
+#0 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('migratre', Array)
+#1 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Applications/MAMP/htdocs/SMS-Messenger-Backend-Project/yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-19 08:01:45 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/1x/nc6lqp3s71594gqtgzzr8glc0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.6JxnxCTeT3/Render'
+    'TERM_PROGRAM_VERSION' => '361'
+    'OLDPWD' => '/Users/Omal'
+    'TERM_SESSION_ID' => '9A902DA5-2309-4217-9FFA-BA6987BBD158'
+    'USER' => 'Omal'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.d0R5ghHkPS/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin'
+    'PWD' => '/Applications/MAMP/htdocs/SMS-Messenger-Backend-Project'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Omal'
+    'LOGNAME' => 'Omal'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1461052905.9233
+    'REQUEST_TIME' => 1461052905
+    'argv' => [
+        0 => 'yii'
+        1 => 'migratre'
+    ]
+    'argc' => 2
+]
