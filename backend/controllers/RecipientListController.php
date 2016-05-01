@@ -26,11 +26,56 @@ class RecipientListController extends Controller
         ];
     }
 
+
+//+++++++++++++++++++++++ code for show recipient list corresponding to groups ++++++++++++++++++++++++++
+
+    public function actionRecipients($params)
+    {
+
+        $searchModel = new RecipientListSearch();
+
+        // We get the params from GET request
+        $params = Yii::$app->request->queryParams;
+        // we parse them to /app/model/ModelSearch::search() 
+        $dataProvider = $searchModel->search($params);
+
+
+        /*  When user create a group, group ID which he is currently selected is automatically inputs into the Database
+            So when user selects a group, it is stored inside a session. (@variable $session_group_id)
+            then it can be used in the 'actionCreate' function in the "RecipientListCOntroller"
+        */
+            $currently_selected_group_id = $params['params'];
+            $session_group_id = Yii::$app->session;
+            $session_group_id->open();
+            //print_r($currently_selected_group_id);
+            $session_group_id['grou_id'] = $currently_selected_group_id;
+
+
+        return $this->render('index', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
+   
+    }
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+    /*
+        No need of showing all the recipient list; 
+        only need to show relevent list in each groups 
+    */
+
     /**
      * Lists all RecipientList models.
      * @return mixed
      */
-    public function actionIndex()
+    /* public function actionIndex()
     {
         $searchModel = new RecipientListSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
@@ -40,6 +85,7 @@ class RecipientListController extends Controller
             'dataProvider' => $dataProvider,
         ]);
     }
+    */
 
     /**
      * Displays a single RecipientList model.
@@ -53,6 +99,14 @@ class RecipientListController extends Controller
         ]);
     }
 
+
+
+
+
+
+
+
+
     /**
      * Creates a new RecipientList model.
      * If creation is successful, the browser will be redirected to the 'view' page.
@@ -60,15 +114,26 @@ class RecipientListController extends Controller
      */
     public function actionCreate()
     {
+        /*  session "session_group_id" is created to get the currently selected user group by the user
+            This was store in the RecipientListCOntroller -> acrionRecipient Fuction
+        */
+        $session_group_id = Yii::$app->session;
+        $session_group_id->open();
+        $currently_selected_group_id = $session_group_id['grou_id'];
+
         $model = new RecipientList();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post())) {
+            $model->group_id = $currently_selected_group_id;    //currently selected group id is automatically inserted into the recipient_list.group_id column in database
+            $session_group_id->destroy();                       //'session_group_id' destroyed because it is not needed furthur more.
+            $model->save();
             return $this->redirect(['view', 'id' => $model->recipient_list_id]);
         } else {
             return $this->render('create', [
                 'model' => $model,
             ]);
         }
+        
     }
 
     /**

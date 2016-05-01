@@ -68,7 +68,7 @@ class UserGroupController extends Controller
             $model->save();
             return $this->redirect(['view', 'id' => $model->group_id]);
         } else {
-            return $this->render('create', [
+            return $this->renderAjax('create', [
                 'model' => $model,
             ]);
         }

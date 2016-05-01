@@ -18,10 +18,12 @@ class RecipientListSearch extends RecipientList
     public function rules()
     {
         return [
-            [['recipient_list_id'], 'integer'],
+            [['recipient_list_id', 'group_id'], 'integer'],
             [['recipient_name', 'recipient_phone_number'], 'safe'],
+            [['param'], 'string', 'on' => 'RECIPIENTS'],
         ];
     }
+
 
     /**
      * @inheritdoc
@@ -39,9 +41,16 @@ class RecipientListSearch extends RecipientList
      *
      * @return ActiveDataProvider
      */
+
+    //public $g_id;
     public function search($params)
     {
-        $query = RecipientList::find();
+        
+        $group_id = $params['params'];
+        $query = RecipientList::find()->where(['group_id' => $group_id]);
+        
+
+        //$query = RecipientList::find();
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -57,6 +66,7 @@ class RecipientListSearch extends RecipientList
 
         $query->andFilterWhere([
             'recipient_list_id' => $this->recipient_list_id,
+            'group_id' => $this->group_id,
         ]);
 
         $query->andFilterWhere(['like', 'recipient_name', $this->recipient_name])

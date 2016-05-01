@@ -29,6 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'recipient_list_id',
+            'group_id',
             'recipient_name',
             'recipient_phone_number',
         ],

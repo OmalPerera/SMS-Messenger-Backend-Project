@@ -33,5 +33,7 @@ $this->title = 'My Yii Application';
 
         </div>
 
+        <p><a class="btn btn-sm btn-danger" href="http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=gii">gii</a></p>
+
     </div>
 </div>

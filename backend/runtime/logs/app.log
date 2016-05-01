@@ -2918,3 +2918,2635 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2016-04-29 14:22:52 [::1][1][8813bd4a61d2a46f17cfbeb8cc992b2a][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=', expecting ']'' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/views/user-group/index.php:31
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-29 14:22:52 [::1][1][8813bd4a61d2a46f17cfbeb8cc992b2a][info][application] $_GET = [
+    'r' => 'user-group'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/doingITE/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52070'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user-group'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461932572.72
+    'REQUEST_TIME' => 1461932572
+    'argv' => [
+        0 => 'r=user-group'
+    ]
+    'argc' => 1
+]
+2016-04-29 14:23:35 [::1][1][8813bd4a61d2a46f17cfbeb8cc992b2a][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: recipient-list/recipients' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('recipients', Array)
+#1 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-29 14:23:35 [::1][1][8813bd4a61d2a46f17cfbeb8cc992b2a][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/doingITE/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52074'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&id=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&id=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461932615.11
+    'REQUEST_TIME' => 1461932615
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&id=1'
+    ]
+    'argc' => 1
+]
+2016-04-29 14:32:54 [::1][1][8813bd4a61d2a46f17cfbeb8cc992b2a][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: params' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Controller.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('recipients', Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#6 {main}
+2016-04-29 14:32:54 [::1][1][8813bd4a61d2a46f17cfbeb8cc992b2a][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/doingITE/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52086'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&id=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&id=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461933174.12
+    'REQUEST_TIME' => 1461933174
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&id=1'
+    ]
+    'argc' => 1
+]
+2016-04-29 14:38:12 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ','' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/models/RecipientListSearch.php:23
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-29 14:38:12 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52094'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461933492.7
+    'REQUEST_TIME' => 1461933492
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-29 14:41:01 [::1][1][8813bd4a61d2a46f17cfbeb8cc992b2a][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: params' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Controller.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('recipients', Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#6 {main}
+2016-04-29 14:41:01 [::1][1][8813bd4a61d2a46f17cfbeb8cc992b2a][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/doingITE/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52114'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&id=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&id=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461933661.17
+    'REQUEST_TIME' => 1461933661
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&id=1'
+    ]
+    'argc' => 1
+]
+2016-04-29 14:41:43 [::1][1][8813bd4a61d2a46f17cfbeb8cc992b2a][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: params' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Controller.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('recipients', Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#6 {main}
+2016-04-29 14:41:43 [::1][1][8813bd4a61d2a46f17cfbeb8cc992b2a][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/doingITE/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52116'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&id=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&id=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461933703.19
+    'REQUEST_TIME' => 1461933703
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&id=1'
+    ]
+    'argc' => 1
+]
+2016-04-29 14:42:11 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/models/RecipientListSearch.php:47
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/models/RecipientListSearch.php(47): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(40): backend\models\RecipientListSearch->search(Array)
+#2 [internal function]: backend\controllers\RecipientListController->actionRecipients('1')
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('recipients', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-29 14:42:11 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52130'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461933731.56
+    'REQUEST_TIME' => 1461933731
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-29 16:50:51 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$group_id' (T_VARIABLE), expecting function (T_FUNCTION)' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/models/RecipientListSearch.php:45
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-29 16:50:51 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52160'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461941451.4
+    'REQUEST_TIME' => 1461941451
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-29 16:51:40 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'print_r' (T_STRING), expecting function (T_FUNCTION)' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/models/RecipientListSearch.php:28
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-29 16:51:40 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52165'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461941500.32
+    'REQUEST_TIME' => 1461941500
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-29 16:52:05 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'print_r' (T_STRING), expecting function (T_FUNCTION)' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/models/RecipientListSearch.php:28
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-29 16:52:05 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52168'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461941525.55
+    'REQUEST_TIME' => 1461941525
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-29 16:52:26 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/models/RecipientListSearch.php:48
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/models/RecipientListSearch.php(48): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 48, Array)
+#1 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(40): backend\models\RecipientListSearch->search(Array)
+#2 [internal function]: backend\controllers\RecipientListController->actionRecipients('1')
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('recipients', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-29 16:52:26 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52170'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461941546.83
+    'REQUEST_TIME' => 1461941546
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-29 16:54:40 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ';'' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-29 16:54:40 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52178'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461941680.87
+    'REQUEST_TIME' => 1461941680
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-29 16:58:46 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: group_id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:94
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(94): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 94, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-29 16:58:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_POST = [
+    '_csrf' => 'eEJJaTcwNGoTExEvBWVkEz46OQBvQQYZMxN.L00BGQAKNH0IfVplLg=='
+    'RecipientList' => [
+        'recipient_name' => 'xxx'
+        'recipient_phone_number' => '2345687901'
+    ]
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '157'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8888'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52236'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461941926.1
+    'REQUEST_TIME' => 1461941926
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 05:02:31 [::1][1][8813bd4a61d2a46f17cfbeb8cc992b2a][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ';', expecting ']'' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/views/user-group/index.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-30 05:02:31 [::1][1][8813bd4a61d2a46f17cfbeb8cc992b2a][info][application] $_GET = [
+    'r' => 'user-group'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '8813bd4a61d2a46f17cfbeb8cc992b2a'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/doingITE/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=8813bd4a61d2a46f17cfbeb8cc992b2a; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '52853'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user-group'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461985351.73
+    'REQUEST_TIME' => 1461985351
+    'argv' => [
+        0 => 'r=user-group'
+    ]
+    'argc' => 1
+]
+2016-04-30 05:21:20 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:94
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(94): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 94, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 05:21:20 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_POST = [
+    '_csrf' => 'cS5adTRtWHQafwIzBjgIDTdWKhxsHGoHOn9tM05cdR4DWG4UfgcJMA=='
+    'RecipientList' => [
+        'recipient_name' => 'zzz'
+        'recipient_phone_number' => '3465789012'
+    ]
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '157'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8888'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '53227'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461986480.11
+    'REQUEST_TIME' => 1461986480
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 05:26:16 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:94
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(94): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 94, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 05:26:16 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_POST = [
+    '_csrf' => 'cS5adTRtWHQafwIzBjgIDTdWKhxsHGoHOn9tM05cdR4DWG4UfgcJMA=='
+    'RecipientList' => [
+        'recipient_name' => 'zzz'
+        'recipient_phone_number' => '3465789012'
+    ]
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '157'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8888'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '53229'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461986776.01
+    'REQUEST_TIME' => 1461986776
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 05:38:01 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'if' (T_IF)' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:94
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-30 05:38:01 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '53354'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461987481.51
+    'REQUEST_TIME' => 1461987481
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-30 05:39:19 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$g_id' (T_VARIABLE), expecting function (T_FUNCTION)' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/models/RecipientListSearch.php:45
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-30 05:39:19 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '53362'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461987559.58
+    'REQUEST_TIME' => 1461987559
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-30 05:41:33 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot use backend\models\RecipientListSearch as RecipientListSearch because the name is already in use' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-30 05:41:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '53377'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461987693.93
+    'REQUEST_TIME' => 1461987693
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-30 05:42:16 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: g_id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:95
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(95): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 95, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 05:42:16 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_POST = [
+    '_csrf' => 'a1J5Y0RCMm0AAyEldhdiFC0qCQocMwAeIANOJT5zHwcZJE0CDihjKQ=='
+    'RecipientList' => [
+        'recipient_name' => 'zzz'
+        'recipient_phone_number' => '2143658709'
+    ]
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '157'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8888'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '53390'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461987736.15
+    'REQUEST_TIME' => 1461987736
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 05:45:22 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: g_id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:95
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(95): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 95, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 05:45:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_POST = [
+    '_csrf' => 'THhzQ3BwbncnKSsFQiU.DgoAAyooAVwEBylEBQpBQx0.DkciOho/Mw=='
+    'RecipientList' => [
+        'recipient_name' => 'zzz'
+        'recipient_phone_number' => '1234567890'
+    ]
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '159'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8888'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '53429'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461987922.91
+    'REQUEST_TIME' => 1461987922
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 05:46:24 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: g_id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:95
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(95): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 95, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 05:46:24 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_POST = [
+    '_csrf' => 'cEZZVWZMSHcbFwETVBkYDjY.KTw.PXoEOxduExx9ZR0CMG00LCYZMw=='
+    'RecipientList' => [
+        'recipient_name' => 'zzz'
+        'recipient_phone_number' => '1234567890'
+    ]
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '157'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8888'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '53435'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461987984.66
+    'REQUEST_TIME' => 1461987984
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 05:47:19 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: g_id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:94
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(94): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 94, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 05:47:19 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '53446'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461988039.65
+    'REQUEST_TIME' => 1461988039
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 05:47:23 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: g_id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:94
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(94): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 94, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 05:47:23 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '53447'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461988043.82
+    'REQUEST_TIME' => 1461988043
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 05:56:30 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: g_id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:94
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(94): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 94, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 05:56:30 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '53547'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461988590.61
+    'REQUEST_TIME' => 1461988590
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 06:31:34 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: g_id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:95
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(95): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 95, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 06:31:34 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '53986'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461990694.85
+    'REQUEST_TIME' => 1461990694
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 06:34:33 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: g_id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:95
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(95): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 95, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 06:34:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54007'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461990873.08
+    'REQUEST_TIME' => 1461990873
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 06:42:33 [::1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\User::setState()' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(43): yii\base\Component->__call('setState', Array)
+#1 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(43): yii\web\User->setState('gro_id', 20)
+#2 [internal function]: backend\controllers\RecipientListController->actionRecipients('1')
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('recipients', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-30 06:42:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54113'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461991353.85
+    'REQUEST_TIME' => 1461991353
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-30 06:42:38 [::1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\User::setState()' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(43): yii\base\Component->__call('setState', Array)
+#1 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(43): yii\web\User->setState('gro_id', 20)
+#2 [internal function]: backend\controllers\RecipientListController->actionRecipients('1')
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('recipients', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-30 06:42:38 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54116'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461991358.03
+    'REQUEST_TIME' => 1461991358
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-30 06:43:49 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method Yii::app()' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:43
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-30 06:43:49 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54125'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461991429.92
+    'REQUEST_TIME' => 1461991429
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-30 06:57:03 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method Yii::app()' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:43
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-30 06:57:03 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54286'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461992223.31
+    'REQUEST_TIME' => 1461992223
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-30 07:00:03 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method Yii::app()' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:98
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-30 07:00:03 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54302'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461992403.89
+    'REQUEST_TIME' => 1461992403
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 07:02:03 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: _SESSION' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:98
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(98): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 98, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 07:02:03 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54303'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461992523.47
+    'REQUEST_TIME' => 1461992523
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 07:02:23 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: _SESSION' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:98
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(98): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 98, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 07:02:23 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54314'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461992543.16
+    'REQUEST_TIME' => 1461992543
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 07:03:04 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: _SESSION' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:97
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(97): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 97, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 07:03:04 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54322'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461992584.21
+    'REQUEST_TIME' => 1461992584
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 07:05:56 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: _SESSION' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:99
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(99): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 99, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 07:05:56 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54328'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461992756.41
+    'REQUEST_TIME' => 1461992756
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 07:06:06 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: _SESSION' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:99
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(99): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 99, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 07:06:06 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '94150833ae9d0abed5207421bdc24168'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=94150833ae9d0abed5207421bdc24168; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54329'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461992766.24
+    'REQUEST_TIME' => 1461992766
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 07:09:20 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: session_group_id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:101
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(101): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 101, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionCreate()
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('create', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 07:09:20 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '525518ab052d6501cbd2e3ad205ab7d8'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=525518ab052d6501cbd2e3ad205ab7d8; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54357'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461992960.2
+    'REQUEST_TIME' => 1461992960
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 07:11:15 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$session_group_id' (T_VARIABLE)' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:47
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-30 07:11:15 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/create'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '525518ab052d6501cbd2e3ad205ab7d8'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=525518ab052d6501cbd2e3ad205ab7d8; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54359'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Fcreate'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fcreate'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461993075.68
+    'REQUEST_TIME' => 1461993075
+    'argv' => [
+        0 => 'r=recipient-list%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-04-30 07:11:16 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$session_group_id' (T_VARIABLE)' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:47
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-30 07:11:16 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '525518ab052d6501cbd2e3ad205ab7d8'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=525518ab052d6501cbd2e3ad205ab7d8; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461993076.75
+    'REQUEST_TIME' => 1461993076
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-30 07:11:22 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$session_group_id' (T_VARIABLE)' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:47
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-30 07:11:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '6a4d02acbe4f7600aa39abab838bd95d'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=6a4d02acbe4f7600aa39abab838bd95d; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54361'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461993082.16
+    'REQUEST_TIME' => 1461993082
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-30 07:11:39 [::1][-][6a4d02acbe4f7600aa39abab838bd95d][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: grou_id' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php:46
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/controllers/RecipientListController.php(46): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 46, Array)
+#1 [internal function]: backend\controllers\RecipientListController->actionRecipients('1')
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('recipients', Array)
+#5 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#6 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-30 07:11:39 [::1][-][6a4d02acbe4f7600aa39abab838bd95d][info][application] $_GET = [
+    'r' => 'recipient-list/recipients'
+    'scenario' => 'RECIPIENTS'
+    'params' => '1'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '6a4d02acbe4f7600aa39abab838bd95d'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=6a4d02acbe4f7600aa39abab838bd95d; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54364'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461993099.34
+    'REQUEST_TIME' => 1461993099
+    'argv' => [
+        0 => 'r=recipient-list%2Frecipients&scenario=RECIPIENTS&params=1'
+    ]
+    'argc' => 1
+]
+2016-04-30 07:23:11 [::1][1][8d39d206f344f06b08ba5f2768b0073d][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: recipient-list/index' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#1 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-30 07:23:11 [::1][1][8d39d206f344f06b08ba5f2768b0073d][info][application] $_GET = [
+    'r' => 'recipient-list/index'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '8d39d206f344f06b08ba5f2768b0073d'
+    '_identity' => '8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"057znzCUQzE1BByP6l972Iyd_mfBJAIi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fview&id=10'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=8d39d206f344f06b08ba5f2768b0073d; _identity=8fd82184ff7938dabfdbd0aa417ee07b1599c2edcd7138739839b072bb74a5d6a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22057znzCUQzE1BByP6l972Iyd_mfBJAIi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54407'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Findex'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Findex'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461993791.96
+    'REQUEST_TIME' => 1461993791
+    'argv' => [
+        0 => 'r=recipient-list%2Findex'
+    ]
+    'argc' => 1
+]
+2016-04-30 07:30:37 [::1][2][8fae76725417289a1742f71ffd3afcf9][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: recipient-list/index' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#1 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('recipient-list/...', Array)
+#2 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-30 07:30:37 [::1][2][8fae76725417289a1742f71ffd3afcf9][info][application] $_GET = [
+    'r' => 'recipient-list/index'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD\";}'
+    'PHPSESSID' => '8fae76725417289a1742f71ffd3afcf9'
+    '_identity' => '6ec813c7a1c916304ac6990690ec155568591038d7696a1e166e9edcd7d432cda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"FoTPYFzSdyoJAXwEOo9PAhLqqUrxZ5fu\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Fview&id=12'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=0271927d1592856ff7fcf986e40afb1883f5176a43be34aca57f7271d29d4af9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kQXF2UPyFxpiXq2sKQ7Fz1-jrv4aJjQD%22%3B%7D; PHPSESSID=8fae76725417289a1742f71ffd3afcf9; _identity=6ec813c7a1c916304ac6990690ec155568591038d7696a1e166e9edcd7d432cda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22FoTPYFzSdyoJAXwEOo9PAhLqqUrxZ5fu%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '54461'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=recipient-list%2Findex'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php?r=recipient-list%2Findex'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461994237.82
+    'REQUEST_TIME' => 1461994237
+    'argv' => [
+        0 => 'r=recipient-list%2Findex'
+    ]
+    'argc' => 1
+]
+2016-04-30 15:23:27 [::1][1][3dd5804d03a77cf85bd67a44a391e6ca][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Url' not found' in /Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/views/user-group/index.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-30 15:23:27 [::1][1][3dd5804d03a77cf85bd67a44a391e6ca][info][application] $_GET = [
+    'r' => 'user-group'
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    'PHPSESSID' => '3dd5804d03a77cf85bd67a44a391e6ca'
+    '_identity' => '3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"-8axp5_ynfqCadNYtKu-0kyB22Czibx6\",2592000]\";}'
+    '_csrf' => '10f4a4d093c27aacc16e026b53a9ecfa83f4721742b8fe082e612b255c2518cfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GLmWakmgLry2V1Ph9DAEHhERPe9i6O4S\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'grou_id' => '7'
+    '__returnUrl' => '/doingITE/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/sec/SMS-Messenger-Backend-Project/backend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; PHPSESSID=3dd5804d03a77cf85bd67a44a391e6ca; _identity=3cb3a35ac577d3e8bc043bec477cd3ce0582b20f326f90213d09ef1a6da02341a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22-8axp5_ynfqCadNYtKu-0kyB22Czibx6%22%2C2592000%5D%22%3B%7D; _csrf=10f4a4d093c27aacc16e026b53a9ecfa83f4721742b8fe082e612b255c2518cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GLmWakmgLry2V1Ph9DAEHhERPe9i6O4S%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REMOTE_PORT' => '55380'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user-group'
+    'REQUEST_URI' => '/sec/SMS-Messenger-Backend-Project/backend/web/?r=user-group'
+    'SCRIPT_NAME' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'PHP_SELF' => '/sec/SMS-Messenger-Backend-Project/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462022607.7
+    'REQUEST_TIME' => 1462022607
+    'argv' => [
+        0 => 'r=user-group'
+    ]
+    'argc' => 1
+]

@@ -17,6 +17,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'recipient_list_id') ?>
 
+    <?= $form->field($model, 'group_id') ?>
+
     <?= $form->field($model, 'recipient_name') ?>
 
     <?= $form->field($model, 'recipient_phone_number') ?>

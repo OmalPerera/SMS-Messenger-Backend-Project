@@ -55,6 +55,6 @@ class RecipientList extends \yii\db\ActiveRecord
      */
     public function getGroup()
     {
-        return $this->hasOne(UserGroup::className(), ['group_owner_id' => 'group_id']);
+        return $this->hasOne(UserGroup::className(), ['group_id' => 'group_id']);
     }
 }

@@ -56,7 +56,7 @@ class UserGroup extends \yii\db\ActiveRecord
      */
     public function getRecipientLists()
     {
-        return $this->hasMany(RecipientList::className(), ['group_id' => 'group_owner_id']);
+        return $this->hasMany(RecipientList::className(), ['group_id' => 'group_id']);
     }
 
     /**
