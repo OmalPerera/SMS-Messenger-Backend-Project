@@ -35,6 +35,7 @@ class UserGroupController extends Controller
         $searchModel = new UserGroupSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
+        $this->layout = 'no_HeaderAndFooter';
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
