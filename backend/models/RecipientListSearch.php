@@ -6,6 +6,7 @@ use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use backend\models\RecipientList;
+use backend\models\UserGroup;
 
 /**
  * RecipientListSearch represents the model behind the search form about `backend\models\RecipientList`.
@@ -45,15 +46,20 @@ class RecipientListSearch extends RecipientList
     //public $g_id;
     public function search($params)
     {
-        
+        $current_logged_user_id = Yii::$app->user->identity->id; //get the id of the current user
         $group_id = $params['params'];
-        $query = RecipientList::find()->where(['group_id' => $group_id]);
+        $query = RecipientList::find()
+            ->where(['group_id' => $group_id])
+            //->andWhere(['group_id' => $current_logged_user_id])
+            //->andWhere(['RecipientLists.group_id' => $current_logged_user_id])
+            ;
         
 
         //$query = RecipientList::find();
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
+            //'pagination' => ['pageSize' => 5,],
         ]);
 
         $this->load($params);
