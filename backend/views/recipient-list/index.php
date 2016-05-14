@@ -74,6 +74,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <?= Html::button('Add a recipient', ['value'=>Url::to('index.php?r=recipient-list/create'),'class' => 'btn btn-primary', 'id'=>'create_recipient_button']) ?>
                 </p>
 
+
                 <!-- Uses for popup form to create recipient -->
                     <?php
                         Modal::begin([
@@ -90,20 +91,33 @@ $this->params['breadcrumbs'][] = $this->title;
                     'dataProvider' => $dataProvider,
                     //'filterModel' => $searchModel,
                     //'showHeader' => false,
+                    'id' => 'recipient_list_grid',
                     'tableOptions' => ['class' => 'table table-hover'],
                     // to show table border   'tableOptions' => ['class' => 'table-bordered']
                     'columns' => [
                         //['class' => 'yii\grid\SerialColumn'],
                         //'recipient_list_id',
-                        'group_id',
+                        ['class' => 'yii\grid\CheckboxColumn'],
+                        //'group_id',
                         'recipient_name',
                         'recipient_phone_number',
                         ['class' => 'yii\grid\ActionColumn'],
                     ],
                 ]); ?>
+
+
+                <p>
+                    <?= Html::input(['id'=>'msg_input', 'style' => 'width: 200px;']) ?>
+                    <?= Html::button('SEND', ['class' => 'btn btn-primary', 'id'=>'msg_send_button']) ?>
+                </p>
+                
+
             </div>
+
         </div>
     <!-- ************** END : row with User-Group list & corresponding recipient list ************** -->
 
+
+                
 
 </div>

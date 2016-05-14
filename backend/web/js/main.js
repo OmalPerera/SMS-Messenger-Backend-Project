@@ -21,11 +21,37 @@ $(function(){
 	});
 
 
+
+	$('#msg_send_button').click(function () {
+		var keys = $('#recipient_list_grid').yiiGridView('getSelectedRows'); // returns an array of pkeys, and #grid is your grid element id
+	    /*$.post({
+	       url: '/site/calculate-total', // your controller action
+	       dataType: 'json',
+	       data: {keylist: keys},
+	       success: function(data) {
+	          if (data.status === 'success') {
+	              alert('Total price is ' + data.total);
+	          }
+	       },
+	    });*/
+
+		alert(keys);
+	});
+
+
+
 	/*	loads the index page of the user-groups to the <div>
 		on the recipient-list view (user choose his groups from here)
 	*/
 	$("#group_list")
 		.load("index.php?r=user-group");
+		return false;
 
+
+
+
+
+
+	
 	
 });
